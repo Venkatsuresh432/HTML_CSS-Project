@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Ride</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="icon" href="icon1.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="navib">
+            <nav>
+                <img src="Mahindra SUV.png" class="logo">
+                <ul>
+                    <li><a href="/Home/mahindra.html" class="hove">Home</a></li>
+                    <li><a href="/carlist/vehicle.html" class="hove">Vehicle</a></li>
+                    <li><a href="/Test Ride/testride.html" class="active">Test Ride</a></li>
+                    <li><a href="/About/about.html" class="hove">About</a></li>
+                </ul> 
+            </nav>
+        </div>
+        <br>
+        <br>
+    </header>
+    <main>
+        <br>
+        <div class="wcon">
+        <h3>Book A Test Ride</h3>
+        <!-- <div class="out"> -->
+                <div class="B-head">
+                    <h4>Select A vehicle</h4>
+                </div>
+                <div class="align1">
+                       <!-- <h5>Select a car:</h5> -->
+                    <label for="book"></label>
+                    <select name="Book-car" id="book" form="form-c" required>
+                        <option value="">Select</option>
+                        <option value="book">Scorpio-N</option>
+                        <option value="book">XUV-700</option>
+                        <option value="book">Thar</option>
+                        <option value="book">XUV-300</option>
+                        <option value="book">Scorpio</option>
+                        <option value="book">Bolero</option>  
+                    </select>
+                </div>
+                    <h4>Location</h4>
+                    <div class="align2">
+                            <div class="st">
+                                <label for="state"><span>Enter your State:</span></label>
+                                <input type="text" name="State" id="state"  required minlength="5" maxlength="18" title="Enter your full state name" form="form-c">
+                            </div>
+                            <div class="ds">
+                                <label for="city">Enter your City:</label>
+                                <input type="text" name="City" id="city"  required minlength="4" maxlength="18" title="Enter your full city name" form="form-c">
+                            </div>
+                    
+                        </div>
+                
+                <h4>Contact Detail</h4>
+                    <div class="align3">
+                        <div class="em">
+                            <label for="email"> Email:</label>
+                            <input type="email" id="email" name="email" required placeholder="xyz@gmail.com" form="form-c">
+                        </div>
+                        <div class="ph">
+                            <label for="phone"> Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="1234567890"   required maxlength="10" form="form-c">
+                        </div>
+                        <div class="nm">
+                            <label for="username">Fullname:</label>
+                            <input type="text" id="username" name="username" required  maxlength="27" placeholder="Alex Cameron" form="form-c">
+                        </div>
+                    </div>
+                
+                <div class="checkb">
+                    <input type="checkbox" id="check" name ="check" required form="form-c">
+                    <label for="check">I agree to be conatcted by our associates regard your interest.</label>
+                </div>
+                <form form action="#" method="post"  id="form-c">
+                        <div class="subm">
+                        <input type="submit" value="Submit" class="submit-button" formenctype="multipart/form-data" >
+                        </div>
+                    </form>
+                  <br>           
+    </div>
+    </main>
+    <br>
+    <div class="disclaimer">
+        <p>* For accurate pricing tailored to your preferred model and variant, we encourage you to visit your nearest showroom.</p>
+    </div>
+    <br><br>
+    <footer>
+        <div class="foot">
+            <nav>
+                <a href="/Home/mahindra.html"><img src="MHLOGOP.png" alt="Mahindra" class="f-logo"></a> 
+                <h6>Credits To Mahindra & Mahindra Ltd</h6>
+                <ul>
+                    <li><a href="https://www.facebook.com/MahindraAutomotiveIndia/"><img src="facebook.png" alt="facebook" ></a></li>
+                    <li><a href="https://www.instagram.com/mahindra_auto?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="instagram.png" alt="instagram"></a></li>
+                    <li><a href= https://www.youtube.com/@MahindraAutomotive><img src="youtube.png" alt="Youtube"></a></li>
+                    <li><a href="https://twitter.com/mahindra_auto?lang=en"><img src="twitter-512.png" alt="Twitter"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
